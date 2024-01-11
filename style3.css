@@ -1,0 +1,87 @@
+/* signuppage */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  background-color:green;
+  height: 10em;
+}
+#logo{
+   width: 210px;
+  height: 130px;
+  position: relative;
+  /* z-index: 1000;   */
+  margin-left: 3%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+} 
+.navigation 
+{
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+ 
+}
+.navigation .active{
+  color:dodgerblue ;
+
+}
+.navigation a{
+  text-decoration: none;
+  color:wheat;
+  border: 2PX solid black;
+  padding: 10PX;
+  margin: 5px;
+      transition: background-color 0.5s ease;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigation a:hover{
+  background-color:yellowgreen ;
+  color: black;
+ 
+
+}
+button :hover{
+    color: aqua;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  .signupbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color:green;
+  }
+  
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  button {
+     cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  } 
+  button:hover {
+    opacity:1;
+  }
+  input[type=text],input[type=password],input[type=email]
+{
+    width: 100%;
+    padding: 15px;
+    margin:5px, 0,22px,0;
+    display: inline-block;
+    border: none;
+  background: #f1f1f1;
+}
+.container
+  {
+    padding: 16px;
+    margin-bottom:100px ;
+  }
+  
+  
